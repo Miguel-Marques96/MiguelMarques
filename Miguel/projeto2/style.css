@@ -1,0 +1,20 @@
+body{
+    background-color: #ea00ff;
+    text-underline-position: above;
+    background-image: url(img2/Varg_Vikernes_Rides_Pink_Motorcycle.gif);
+    background-repeat:   repeat-y;
+    background-attachment: fixed;
+    background-position: center ;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+p{
+ font-family: 'Times New Roman', Times, serif;
+ text-transform: capitalize;
+ font: italic small-caps bold 30xp arial, Times New Roman;
+ color:aliceblue
+}
