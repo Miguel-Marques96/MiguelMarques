@@ -7,8 +7,8 @@
     <title>pagina1</title>
 </head>
 <body>
-        <main>
-         <div id="container">
+     <main>
+        <div id="linha1">
             <div class="columns col1">
                 <form>
      
@@ -22,20 +22,22 @@
             </div>
             
             <div class="columns col2">
-              
-                Pos x : <input type="number" id="iptX"><br><br>
-                Pos y : <input type="number" id="ipty"><br>
+              <form>
+                Pos x : <input type="number" id="posX"><br><br>
+                Pos y : <input type="number" id="posy"><br>
                
-                <button type="button" onclick="somar()">Aplicar</button><br><br>
+                <button type="button" onclick="aplicar()">Aplicar</button><br><br>
+              </form>
             </div>
            
     </div>
-
-    <div class="columns col3">
-              
-      
-            
-            
+         <div id="linha2">
+             <div class="columns col3">
+                 <div id="boxRes">
+                    <span id="res">Resultado: </span>
+                </div>
+            </div>
+        </div>
     </main>
        
     <script src="script.js"></script>
